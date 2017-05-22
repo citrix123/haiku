@@ -1,0 +1,2 @@
+/usr/local/bin/jam -sHAIKU_IGNORE_USER_BUILD_CONFIG=1 -q @release-raw
+qemu-system-x86_64  -m 1024  -hda haiku-release.image  -serial file:log.txt
